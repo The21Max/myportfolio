@@ -1,0 +1,82 @@
+.nava{
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+}
+.nava:hover{
+    color: #2eca6a;
+}
+.nav-item{
+    list-style: none;
+}
+.nava span{
+    color: #2eca6a;
+    justify-content: center;
+}
+header .navbar{
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    background-color: white;
+}
+nav ul{
+    width: 100%;
+    justify-content: center;
+}
+nav ul li{
+    font-size: 1.3rem;
+    color: black;
+    list-style: none;
+}
+nav ul li .nav-link{
+    color: #000;
+}
+.carousel-item img{
+    width: auto;
+    height: 86.5vh;
+    filter: brightness(60%);
+}
+.btl button{
+    width: 50px;
+    height: 50px;
+    background-color: #2eca6a;
+}
+.btl i{
+    font-size: 20px;
+    color: white;
+}
+.rent{
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: unset;
+    border-radius: 30px;
+    border: 2px solid #2eca6a;
+}
+.text{
+    width: 100%;
+    z-index: 50;
+    height: 86.5vh;
+    margin-top: 150px;
+    position: absolute;
+    color: white;
+}
+.text span{
+    font-size: 70px;
+    color: white;
+}
+.text h1{
+    font-size: 70px;
+    color: #2eca6a;
+}
+@media screen and(max-width:768px){
+    .text span{
+        color: white;
+        font-size: 50px;
+    }
+    .text h1{
+        color: #2eca6a;
+        font-size: 50px;
+    }
+}
